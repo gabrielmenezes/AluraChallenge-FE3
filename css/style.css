@@ -1,7 +1,7 @@
 .logo {
     height: 50px;
     width: 176px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .container {
@@ -101,4 +101,58 @@
     line-height: 19px;
     color: #FFFFFF;
     text-align: center;
+}
+
+.footer {
+    display: flex;
+    height: 368px;
+    background-color:#EAF2FD;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerFooter{
+    display: flex;
+    width: 80%;
+}
+
+.listaLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 176px;
+    margin: 16px;
+}
+
+a {
+    margin: 10px;
+}
+
+.itemLista {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    height: 19px;
+    margin-top: 19px;
+}
+
+
+.formFaleConoso{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    width: 560px;
+}
+
+.inputNome {
+    background: #FFFFFF;
+    border-radius: 4px;
 }
